@@ -1,0 +1,7 @@
+body {
+  background-color: #252830;
+  font-family: "微软雅黑", "Microsoft Yahei", "宋体", Tahoma, Arial;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+

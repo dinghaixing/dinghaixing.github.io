@@ -23,7 +23,7 @@
 <body>
         
         <h1> 小菜和一碟，专注于智能技术的落地和应用。</h1>
-        <!--img src="./web/img/bus.jpg"-->
+        <img src="./web/img/bus.jpg">
 
 </body>
 </html>
