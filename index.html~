@@ -28,21 +28,23 @@
                 <div class="row">
                   <div class="col-md-2">小菜和一碟</div>
                   <div class="col-md-2">产业链</div>
+                  <!-- 人工智能学术源头以及软件开发包的产业链，硬件产业链，应用产业链 -->
                   <div class="col-md-2">行业</div>
                   <!-- 行业知识，行业信息，行业情报 -->
                   <div class="col-md-2">公司</div>
-                  <!-- 公司调研（投资，应聘用） -->
+                  <!-- 公司调研（投资，应聘，招聘） -->
                   <div class="col-md-2">技术</div>
                   <!-- 数学，理论，代码，观点 -->
-                  <div class="col-md-2">人</div>
+                  <div class="col-md-2">应用</div>
+                  <!-- 技术解决的核心问题，核心问题到商业价值，商业模式 -->
                 </div>
         </div>
         <hr>
         <div class="container">
                 <div class="row">
                   <div class="col-md-12">小菜和一碟,专注于智能技术的落地和应用，技术+行业</div>
+                  <div class="col-md-12">未来十年内，智能技术会逐步潜入各个行业，会解决掉核心问题，改变或颠覆行业现状，我们存在于这一过程之中，提供一切便利的帮助，包括知识，信息，数据，情报。也是全民提升对智能技术认知的平台，投资者选择智能方向投资标的平台，人工智能企业展示自己的平台，求职者选择企业的平台，应聘平台，招聘平台。</div>
                 </div>
-                <a href="http://weibo.com/dinghaixing?is_all=1">a test</a>
         </div>
         <!--img src="./web/img/bus.jpg"-->
 
