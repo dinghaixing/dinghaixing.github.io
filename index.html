@@ -11,6 +11,39 @@
   <script src="web/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <link href="web/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
   <!-- <link href="web/css/global.css" rel="stylesheet"/> -->
+<style type="text/css">
+.bs-docs-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  color: #99979c;
+  /*text-align: center;*/
+  background-color: #2a2730;
+}
+.bs-docs-footer a {
+  color: #fff;
+}
+.bs-docs-footer-links {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.bs-docs-footer-links li {
+  display: inline-block;
+}
+.bs-docs-footer-links li + li {
+  margin-left: 15px;
+}
+
+@media (min-width: @screen-sm-min) {
+  .bs-docs-footer {
+    text-align: left;
+  }
+  .bs-docs-footer p {
+    margin-bottom: 0;
+  }
+}
+</style>
+
 </head>
 <body>
   <div class="container">
@@ -27,11 +60,43 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
+        <br><br><br>
         <h1>Machine Readable Commonsense</h1>
-        <h1>机器可读的常识</h1>
+        <h2>机器可读的常识</h2>
+        <br><br><br>
       </div>
+    </div>
   </div>
-  <!-- <img src="./web/img/bus.jpg"> -->
+
+  <div class="container">
+    <img src="./web/img/foggy_forest.jpg" style="width: 100%;">
+  </div>
+
+  <div class="container">
+    <br><br>
+    <div class="row">
+      <div class="col-md-12">
+        <p>人的大脑像肥沃的土壤，我们的感官接收世界中的阳光，让知识在大脑中自然生长，形成认知的森林。我们试图用模型构造跟人类一样的学习机制——而穿透这迷雾中的森林的关键之一，是常识（我们叫做机器可读的常识MRC）。MRC不同于知识图谱（可能是人类不可读，不可认知的），也不同于有监督或无监督机器学习，MRC是可以常年累积学习广义世界中的事实。MRC学习天然的，可能人类无法用语言表达或描述的物理、化学、生物知识，比如世界的白天和黑夜、春夏秋冬交替，雨滴从天而降，人生老病死等我们认为的常识。而且机器可认知的每一个对象，可以进行长年累月的观察学习，今天学习物理特征，明天学习化学性质。</p>
+      </div>
+    </div>
+  </div>
+
+<footer class="bs-docs-footer">
+  <div class="container">
+
+    <ul class="bs-docs-footer-links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Examples</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+
+    <p>Designed and built with all the love in the world by <a href="#" rel="noopener" target="_blank">@a</a>. Maintained by the <a href="#">core team</a> with the help of <a href="#">our contributors</a>.</p>
+
+    <p>Code licensed <a href="#" rel="license noopener" target="_blank">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener" target="_blank">CC BY 3.0</a>.</p>
+
+  </div>
+</footer>
 
 </body>
 </html>
